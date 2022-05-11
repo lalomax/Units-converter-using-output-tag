@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Units converter using output</title>
+  <link href="index.css" rel="stylesheet">
+</head>
+
+<body>
+  <form oninput="
+   mF.value=(a.value*3.2808).toFixed(3);
+   fM.value=(a.value/3.2808).toFixed(3);
+   lG.value=(a.value*0.26417).toFixed(3);
+   gL.value=(a.value/0.26417).toFixed(3);
+   kP.value=(a.value*2.2046).toFixed(3);
+   pK.value=(a.value/2.2046).toFixed(3);
+    cl1.value= a.value
+    cl2.value= a.value
+    cl3.value= a.value
+    cl4.value= a.value
+    cl5.value= a.value
+    cl6.value= a.value
+   ">
+    <main>
+      <header>
+        <h1>Metric/Imperial units converter</h1>
+        <input type="number" name="a" id="a" value="20" />
+      </header>
+
+      <section>
+        <p>Length (Meter/feet)</p>
+        <output name="cl1">20</output> Meters = <output name="mF">65.616</output> feet | <output name="cl2">20</output>
+        Feet = <output name="fM">6.096</output> meters
+
+        <p>Volume (Liters/Gallons)</p>
+        <output name="cl3">20</output> liters = <output name="lG">5.283</output> gallons | <output
+          name="cl4">20</output> gallons = <output name="gL">76.286</output> liters
+
+        <p>Mass (Kilograms/Pounds)</p>
+        <output name="cl5">20</output> kilos = <output name="kP">44.092</output> pounds | <output name="cl6">20</output>
+        pounds = <output name="pK">9.072</output> kilos
+      </section>
+  </main>
+  </form>
+
+
+</body>
+
+</html>

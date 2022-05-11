@@ -1,0 +1,35 @@
+html, body, p {
+    margin: 0;
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+}
+p {
+  
+  font-weight: 900;
+}
+
+#a {
+  opacity: 0.3;
+  color: black;
+  font-size: 36px;
+  text-align: center;
+  width: 150px;
+  border-radius: 5px;
+}
+
+main{
+   width: 550px;
+    height: 550px;  
+  margin: auto;
+}
+
+header {
+      background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
+    padding: 30px 0;
+}
+
+section {
+      background: #1F2937;
+    line-height: 3;
+}
