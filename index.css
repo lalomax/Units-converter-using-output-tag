@@ -1,35 +1,52 @@
-html, body, p {
-    margin: 0;
-  font-family: sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+html,
+body,
+p {
+  margin: 0;
+  font-family: "Inter", sans-serif;
   text-align: center;
   color: white;
 }
+
 p {
-  
   font-weight: 900;
 }
 
 #a {
-  opacity: 0.3;
-  color: black;
-  font-size: 36px;
+  opacity: 0.4;
+  color: rgba(0, 0, 0, 0.863);
+  font-size: 2.25em;
   text-align: center;
-  width: 150px;
+  width: 3em;
   border-radius: 5px;
 }
 
-main{
-   width: 550px;
-    height: 550px;  
+main {
+  width: 50vw;
+  height: 50vh;
   margin: auto;
+  /* padding: 6em; */
 }
 
 header {
-      background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
-    padding: 30px 0;
+  background: linear-gradient(246.26deg, #585dfe 0%, #fb3796 100%);
+  padding: 30px 0;
 }
 
 section {
-      background: #1F2937;
-    line-height: 3;
+  background: #1f2937;
+  line-height: 2.5;
 }
+ header, section {
+  padding: 2em;
+ }
+
+ output {
+  color: #D2D2D2;
+  font-size: small;
+ }
+
+ h1 {
+  font-size: 1.2em;
+ }
